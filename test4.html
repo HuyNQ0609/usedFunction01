@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+    function addNumbers(a, b) {
+      let result;
+      if (a < b) {
+        result = b - a;
+      } else if (a === b) {
+        result = a * b;
+      } else {
+        result = a + b;
+      }
+      document.write("Result: " + result +"<br>")
+    }
+    addNumbers(2, 3);
+    addNumbers(3, 3);
+    addNumbers(4, 3);
+  </script>
+</body>
+</html>
